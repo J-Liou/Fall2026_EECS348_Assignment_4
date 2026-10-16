@@ -4,7 +4,7 @@ Description: C++ program that solves Sudoku puzzles through backtracking.
 Inputs: test file named puzzle1.txt through puzzle5.txt
 Output: prints original puzzle and solution(s)
 Other Sources: ChatGPT
-Collaborators: ChatGPT
+Collaborators: ChatGPT, chatgpt.com
 Author: Jonathan Liou
 Created: Oct 15th, 2026
 */
@@ -22,7 +22,7 @@ Created: Oct 15th, 2026
 class SudokuPuzzle { //declare sudoku puzzle class
 public: //sudokupuzzle public members
     static constexpr int Size = 9; //initialize constant for cell num range
-    
+
     //  MAINTAINABILITY CHANGE: ADD BLOCK CONSTANT (CHATGPT)
     static constexpr int BlockSize = 3; //initialize constant for block cell range (3x3)
     // END OF CHANGE
