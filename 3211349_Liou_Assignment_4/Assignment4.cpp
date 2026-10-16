@@ -22,7 +22,8 @@ Created: Oct 15th, 2026
 class SudokuPuzzle { //declare sudoku puzzle class
 public: //sudokupuzzle public members
     static constexpr int Size = 9; //initialize constant for cell num range
-    //  MAINTAINABILITY CHANGE: ADD BLOCK CONSTANT
+    
+    //  MAINTAINABILITY CHANGE: ADD BLOCK CONSTANT (CHATGPT)
     static constexpr int BlockSize = 3; //initialize constant for block cell range (3x3)
     // END OF CHANGE
     using Grid = std::array<std::array<int, Size>, Size>; //set grid namespace to nested array of int, size
